@@ -37,12 +37,12 @@ python train.py -bm google/mt5-large -ln "level0" -le 4 -lf language_files/12lan
 ## DLHQL
 To run this experiment use the following command:
 ```
-python train.py -bm google/mt5-large -ln "level0", "level1", "language" -le 1 -lf language_files/12langs_dlhql.csv -sn 12langs_dlhql -tm qlora
+python train.py -bm google/mt5-large -ln "level0", "level1", "level2", "language" -le 1 -lf language_files/12langs_dlhql.csv -sn 12langs_dlhql -tm qlora
 ```
 
 ## PTHQL
 To run this experiment use the following command:
 ```
-python train.py -bm google/mt5-large -ln "level0", "level1", "language" -le 1 -lf language_files/12langs_pthql.csv -sn 12langs_pthql -tm qlora
+python train.py -bm google/mt5-large -ln "level0", "level1", "level2", "language" -le 1 -lf language_files/12langs_pthql.csv -sn 12langs_pthql -tm qlora
 ```
 
