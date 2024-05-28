@@ -1,13 +1,14 @@
-# Phylogenetically Stacked Q-LoRAs
+# HQL: Hierarchical-QLoRA
 
 
 ## Data
 
 Because of copyright constraints we cannot provide the data used for training.
-Obtain a copy of AMR3.0 (LDC2020T02) and translate it with NLLB.
-Obtain a copy of the AMR2.0 4 Translations (LDC2020T07).
-Obtain a copy of FLORES-200 and parse the English sentences with AMR3-structbart-L.
-Place the files with the data on the corresponding path within the `data` directory.
+
+* Obtain a copy of AMR3.0 (LDC2020T02) and translate it with NLLB.
+* Obtain a copy of the AMR2.0 4 Translations (LDC2020T07).
+* Obtain a copy of FLORES-200 and parse the English sentences with AMR3-structbart-L.
+* Place the files with the data on the corresponding path within the `data` directory.
 
 ## Monolingual Experiment
 
