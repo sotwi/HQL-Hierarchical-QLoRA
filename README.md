@@ -3,12 +3,13 @@
 
 ## Data
 
-Because of copyright constraints we cannot provide the data used for training.
+Because of copyright constraints we cannot provideall  the data used for training. Following the provided links redirect to the right sources.
 
-* Obtain a copy of AMR3.0 (LDC2020T02) and translate it with NLLB.
-* Obtain a copy of the AMR2.0 4 Translations (LDC2020T07).
-* Obtain a copy of FLORES-200 and parse the English sentences with AMR3-structbart-L.
-* Place the files with the data on the corresponding path within the `data` directory.
+The Flores-200 data is available
+* Obtain a copy of [AMR3.0 (LDC2020T02)](https://catalog.ldc.upenn.edu/LDC2020T02) and translate it with [NLLB](https://huggingface.co/facebook/nllb-200-3.3B.).
+* Obtain a copy of [AMR2.0 4 Translations (LDC2020T07)](https://catalog.ldc.upenn.edu/LDC2020T07).
+* Obtain a copy of [FLORES-200](https://huggingface.co/datasets/facebook/flores) and parse the English sentences with [AMR3-structbart-L](https://github.com/IBM/transition-amr-parser).
+* Reformat and place the files with the data on the corresponding path within the `data` directory. Look at the corresponding `.py` file for each dataset for details on the required format.
 
 ## Monolingual Experiment
 
