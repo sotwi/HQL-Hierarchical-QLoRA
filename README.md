@@ -3,9 +3,8 @@
 
 ## Data
 
-Because of copyright constraints we cannot provideall  the data used for training. Following the provided links redirect to the right sources.
+Because of copyright constraints we cannot provide all the data used for training. Following the provided links redirects to the right sources.
 
-The Flores-200 data is available
 * Obtain a copy of [AMR3.0 (LDC2020T02)](https://catalog.ldc.upenn.edu/LDC2020T02) and translate it with [NLLB](https://huggingface.co/facebook/nllb-200-3.3B.).
 * Obtain a copy of [AMR2.0 4 Translations (LDC2020T07)](https://catalog.ldc.upenn.edu/LDC2020T07).
 * Obtain a copy of [FLORES-200](https://huggingface.co/datasets/facebook/flores) and parse the English sentences with [AMR3-structbart-L](https://github.com/IBM/transition-amr-parser).
